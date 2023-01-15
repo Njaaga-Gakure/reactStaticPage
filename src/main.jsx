@@ -1,5 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import page from './App'
+import MainContent from './App'
 
-ReactDOM.createRoot(document.getElementById("root")).render(page)
+/**
+ * the old React way
+ * ReactDOM.render(< MainContent />, document.getElementById("root"))
+ **/
+ReactDOM.createRoot(document.getElementById("root")).render(<MainContent />)
