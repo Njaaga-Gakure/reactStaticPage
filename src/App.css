@@ -34,6 +34,9 @@ body {
 .main-content {
    color: #FFFFFF;
     padding: 57px 27px;
+    background-image: url("./images/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
 }
 .main--title {
     margin: 0;
@@ -47,4 +50,8 @@ body {
 .main--facts > li {
     line-height: 19px;
     padding-block: 10px;
+}
+.main--facts > li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
 }
